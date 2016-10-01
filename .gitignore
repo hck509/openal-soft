@@ -5,3 +5,6 @@ include/SLES
 include/sndio.h
 include/sys
 openal-soft.kdev4
+/Release
+/x64
+/BinTemp
