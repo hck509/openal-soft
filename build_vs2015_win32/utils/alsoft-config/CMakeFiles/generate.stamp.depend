@@ -1,0 +1,9 @@
+# CMake generation dependency list for this directory.
+E:/Work/RCO_clean/Src/Extern/cmake-3.12.1-win64-x64/share/cmake-3.12/Modules/CMakePushCheckState.cmake
+E:/Work/RCO_clean/Src/Extern/cmake-3.12.1-win64-x64/share/cmake-3.12/Modules/CheckCXXSymbolExists.cmake
+E:/Work/RCO_clean/Src/Extern/cmake-3.12.1-win64-x64/share/cmake-3.12/Modules/CheckSymbolExists.cmake
+E:/Work/RCO_clean/Src/Extern/cmake-3.12.1-win64-x64/share/cmake-3.12/Modules/FindPackageHandleStandardArgs.cmake
+E:/Work/RCO_clean/Src/Extern/cmake-3.12.1-win64-x64/share/cmake-3.12/Modules/FindPackageMessage.cmake
+E:/Work/RCO_clean/Src/Extern/cmake-3.12.1-win64-x64/share/cmake-3.12/Modules/FindQt4.cmake
+E:/Work/RCO_clean/Src/Extern/cmake-3.12.1-win64-x64/share/cmake-3.12/Modules/MacroAddFileDependencies.cmake
+E:/Work/RCO_clean/Src/Extern/openal-soft/utils/alsoft-config/CMakeLists.txt

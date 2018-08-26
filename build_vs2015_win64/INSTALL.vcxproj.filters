@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\Work\RCO_clean\Src\Extern\openal-soft\build_vs2015_win64\CMakeFiles\482b9dcbd9e0ff34f4b41b4ddcfc8488\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{47450A27-0D64-3117-B26F-229D3B61BB4E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
