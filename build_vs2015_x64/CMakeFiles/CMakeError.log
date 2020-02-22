@@ -1,0 +1,1079 @@
+Performing C SOURCE FILE Test HAVE_STD_C11 failed with the following output:
+Change Dir: C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"MSBuild.exe" "cmTC_ab1f7.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+.NET Framework용 Microsoft (R) Build Engine 버전 16.4.0+e901037fe
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+빌드 시작: 2020-02-22 오후 6:45:55
+1 노드의 "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_ab1f7.vcxproj" 프로젝트(기본 대상)입니다.
+PrepareForBuild:
+  "cmTC_ab1f7.dir\Debug\" 디렉터리를 만들고 있습니다.
+  "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\Debug\" 디렉터리를 만들고 있습니다.
+  "cmTC_ab1f7.dir\Debug\cmTC_ab1f7.tlog\" 디렉터리를 만들고 있습니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_ab1f7.dir\Debug\cmTC_ab1f7.tlog\unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_STD_C11 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ab1f7.dir\Debug\\" /Fd"cmTC_ab1f7.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue  -std=c11 "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\src.c"
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.00.24245(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  
+  src.c
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_STD_C11 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ab1f7.dir\Debug\\" /Fd"cmTC_ab1f7.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue  -std=c11 "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\src.c"
+  
+cl : 명령줄 warning D9002: 알 수 없는 '-std=c11' 옵션을 무시합니다. [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_ab1f7.vcxproj]
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\Debug\cmTC_ab1f7.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x64/CMakeFiles/CMakeTmp/Debug/cmTC_ab1f7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x64/CMakeFiles/CMakeTmp/Debug/cmTC_ab1f7.lib" /MACHINE:X64  /machine:x64 cmTC_ab1f7.dir\Debug\src.obj
+  cmTC_ab1f7.vcxproj -> C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\Debug\cmTC_ab1f7.exe
+  cmTC_ab1f7.vcxproj -> C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x64/CMakeFiles/CMakeTmp/Debug/cmTC_ab1f7.pdb (Full PDB)
+FinalizeBuildStatus:
+  "cmTC_ab1f7.dir\Debug\cmTC_ab1f7.tlog\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+  "cmTC_ab1f7.dir\Debug\cmTC_ab1f7.tlog\cmTC_ab1f7.lastbuildstate"에 연결(touching)하고 있습니다.
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_ab1f7.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+
+빌드했습니다.
+
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_ab1f7.vcxproj"(기본 대상)(1)->
+(ClCompile 대상) -> 
+  cl : 명령줄 warning D9002: 알 수 없는 '-std=c11' 옵션을 무시합니다. [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_ab1f7.vcxproj]
+
+    경고 1개
+    오류 0개
+
+경과 시간: 00:00:01.62
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_STD_C99 failed with the following output:
+Change Dir: C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"MSBuild.exe" "cmTC_0f75b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+.NET Framework용 Microsoft (R) Build Engine 버전 16.4.0+e901037fe
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+빌드 시작: 2020-02-22 오후 6:45:57
+1 노드의 "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_0f75b.vcxproj" 프로젝트(기본 대상)입니다.
+PrepareForBuild:
+  "cmTC_0f75b.dir\Debug\" 디렉터리를 만들고 있습니다.
+  "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\Debug\" 디렉터리를 만들고 있습니다.
+  "cmTC_0f75b.dir\Debug\cmTC_0f75b.tlog\" 디렉터리를 만들고 있습니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_0f75b.dir\Debug\cmTC_0f75b.tlog\unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_STD_C99 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0f75b.dir\Debug\\" /Fd"cmTC_0f75b.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue  -std=c99 "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\src.c"
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.00.24245(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  
+  src.c
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_STD_C99 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0f75b.dir\Debug\\" /Fd"cmTC_0f75b.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue  -std=c99 "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\src.c"
+  
+cl : 명령줄 warning D9002: 알 수 없는 '-std=c99' 옵션을 무시합니다. [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_0f75b.vcxproj]
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\Debug\cmTC_0f75b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x64/CMakeFiles/CMakeTmp/Debug/cmTC_0f75b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x64/CMakeFiles/CMakeTmp/Debug/cmTC_0f75b.lib" /MACHINE:X64  /machine:x64 cmTC_0f75b.dir\Debug\src.obj
+  cmTC_0f75b.vcxproj -> C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\Debug\cmTC_0f75b.exe
+  cmTC_0f75b.vcxproj -> C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x64/CMakeFiles/CMakeTmp/Debug/cmTC_0f75b.pdb (Full PDB)
+FinalizeBuildStatus:
+  "cmTC_0f75b.dir\Debug\cmTC_0f75b.tlog\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+  "cmTC_0f75b.dir\Debug\cmTC_0f75b.tlog\cmTC_0f75b.lastbuildstate"에 연결(touching)하고 있습니다.
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_0f75b.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+
+빌드했습니다.
+
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_0f75b.vcxproj"(기본 대상)(1)->
+(ClCompile 대상) -> 
+  cl : 명령줄 warning D9002: 알 수 없는 '-std=c99' 옵션을 무시합니다. [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_0f75b.vcxproj]
+
+    경고 1개
+    오류 0개
+
+경과 시간: 00:00:01.71
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_RESTRICT failed with the following output:
+Change Dir: C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"MSBuild.exe" "cmTC_0d005.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+.NET Framework용 Microsoft (R) Build Engine 버전 16.4.0+e901037fe
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+빌드 시작: 2020-02-22 오후 6:46:02
+1 노드의 "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_0d005.vcxproj" 프로젝트(기본 대상)입니다.
+PrepareForBuild:
+  "cmTC_0d005.dir\Debug\" 디렉터리를 만들고 있습니다.
+  "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\Debug\" 디렉터리를 만들고 있습니다.
+  "cmTC_0d005.dir\Debug\cmTC_0d005.tlog\" 디렉터리를 만들고 있습니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_0d005.dir\Debug\cmTC_0d005.tlog\unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_RESTRICT /D _LARGEFILE_SOURCE /D _LARGE_FILES /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0d005.dir\Debug\\" /Fd"cmTC_0d005.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\src.c"
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.00.24245(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  
+  src.c
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_RESTRICT /D _LARGEFILE_SOURCE /D _LARGE_FILES /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0d005.dir\Debug\\" /Fd"cmTC_0d005.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\src.c"
+  
+C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\src.c(1): error C2061: 구문 오류: 식별자 'foo' [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_0d005.vcxproj]
+C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\src.c(1): error C2059: 구문 오류: ';' [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_0d005.vcxproj]
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_0d005.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+
+빌드하지 못했습니다.
+
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_0d005.vcxproj"(기본 대상)(1)->
+(ClCompile 대상) -> 
+  C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\src.c(1): error C2061: 구문 오류: 식별자 'foo' [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_0d005.vcxproj]
+  C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\src.c(1): error C2059: 구문 오류: ';' [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_0d005.vcxproj]
+
+    경고 0개
+    오류 2개
+
+경과 시간: 00:00:01.25
+
+Source file was:
+int *restrict foo;
+                             int main() {return 0;}
+Performing C SOURCE FILE Test HAVE_C99_VLA failed with the following output:
+Change Dir: C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"MSBuild.exe" "cmTC_0fd04.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+.NET Framework용 Microsoft (R) Build Engine 버전 16.4.0+e901037fe
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+빌드 시작: 2020-02-22 오후 6:46:06
+1 노드의 "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_0fd04.vcxproj" 프로젝트(기본 대상)입니다.
+PrepareForBuild:
+  "cmTC_0fd04.dir\Debug\" 디렉터리를 만들고 있습니다.
+  "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\Debug\" 디렉터리를 만들고 있습니다.
+  "cmTC_0fd04.dir\Debug\cmTC_0fd04.tlog\" 디렉터리를 만들고 있습니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_0fd04.dir\Debug\cmTC_0fd04.tlog\unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_C99_VLA /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0fd04.dir\Debug\\" /Fd"cmTC_0fd04.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\src.c"
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.00.24245(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  
+  src.c
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_C99_VLA /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0fd04.dir\Debug\\" /Fd"cmTC_0fd04.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\src.c"
+  
+C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\src.c(3): error C2057: 상수 식이 필요합니다. [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_0fd04.vcxproj]
+C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\src.c(3): error C2466: 상수 크기 0의 배열을 할당할 수 없습니다. [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_0fd04.vcxproj]
+C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\src.c(3): error C2133: 'tmp': 알 수 없는 크기입니다. [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_0fd04.vcxproj]
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_0fd04.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+
+빌드하지 못했습니다.
+
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_0fd04.vcxproj"(기본 대상)(1)->
+(ClCompile 대상) -> 
+  C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\src.c(3): error C2057: 상수 식이 필요합니다. [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_0fd04.vcxproj]
+  C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\src.c(3): error C2466: 상수 크기 0의 배열을 할당할 수 없습니다. [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_0fd04.vcxproj]
+  C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\src.c(3): error C2133: 'tmp': 알 수 없는 크기입니다. [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_0fd04.vcxproj]
+
+    경고 0개
+    오류 3개
+
+경과 시간: 00:00:01.20
+
+Source file was:
+int main(int argc, char *argv[])
+ {
+     volatile int tmp[argc];
+     tmp[0] = argv[0][0];
+     return tmp[0];
+ }
+Performing C SOURCE FILE Test HAVE_C11_STATIC_ASSERT failed with the following output:
+Change Dir: C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"MSBuild.exe" "cmTC_006da.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+.NET Framework용 Microsoft (R) Build Engine 버전 16.4.0+e901037fe
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+빌드 시작: 2020-02-22 오후 6:46:10
+1 노드의 "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_006da.vcxproj" 프로젝트(기본 대상)입니다.
+PrepareForBuild:
+  "cmTC_006da.dir\Debug\" 디렉터리를 만들고 있습니다.
+  "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\Debug\" 디렉터리를 만들고 있습니다.
+  "cmTC_006da.dir\Debug\cmTC_006da.tlog\" 디렉터리를 만들고 있습니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_006da.dir\Debug\cmTC_006da.tlog\unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_C11_STATIC_ASSERT /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_006da.dir\Debug\\" /Fd"cmTC_006da.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\src.c"
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.00.24245(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  
+  src.c
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_C11_STATIC_ASSERT /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_006da.dir\Debug\\" /Fd"cmTC_006da.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\src.c"
+  
+C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\src.c(3): warning C4013: '_Static_assert'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다. [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_006da.vcxproj]
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\Debug\cmTC_006da.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x64/CMakeFiles/CMakeTmp/Debug/cmTC_006da.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x64/CMakeFiles/CMakeTmp/Debug/cmTC_006da.lib" /MACHINE:X64  /machine:x64 cmTC_006da.dir\Debug\src.obj
+src.obj : error LNK2019: _Static_assert 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다. [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_006da.vcxproj]
+C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\Debug\cmTC_006da.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다. [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_006da.vcxproj]
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_006da.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+
+빌드하지 못했습니다.
+
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_006da.vcxproj"(기본 대상)(1)->
+(ClCompile 대상) -> 
+  C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\src.c(3): warning C4013: '_Static_assert'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다. [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_006da.vcxproj]
+
+
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_006da.vcxproj"(기본 대상)(1)->
+(Link 대상) -> 
+  src.obj : error LNK2019: _Static_assert 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다. [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_006da.vcxproj]
+  C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\Debug\cmTC_006da.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다. [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_006da.vcxproj]
+
+    경고 1개
+    오류 2개
+
+경과 시간: 00:00:01.58
+
+Source file was:
+int main()
+ {
+     _Static_assert(sizeof(int) == sizeof(int), "What");
+     return 0;
+ }
+Performing C SOURCE FILE Test HAVE_C11_ALIGNAS failed with the following output:
+Change Dir: C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"MSBuild.exe" "cmTC_4c7da.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+.NET Framework용 Microsoft (R) Build Engine 버전 16.4.0+e901037fe
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+빌드 시작: 2020-02-22 오후 6:46:12
+1 노드의 "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_4c7da.vcxproj" 프로젝트(기본 대상)입니다.
+PrepareForBuild:
+  "cmTC_4c7da.dir\Debug\" 디렉터리를 만들고 있습니다.
+  "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\Debug\" 디렉터리를 만들고 있습니다.
+  "cmTC_4c7da.dir\Debug\cmTC_4c7da.tlog\" 디렉터리를 만들고 있습니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_4c7da.dir\Debug\cmTC_4c7da.tlog\unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_C11_ALIGNAS /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4c7da.dir\Debug\\" /Fd"cmTC_4c7da.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\src.c"
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.00.24245(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  
+  src.c
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_C11_ALIGNAS /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4c7da.dir\Debug\\" /Fd"cmTC_4c7da.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\src.c"
+  
+C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\src.c(1): error C2143: 구문 오류: ')'이(가) '상수' 앞에 없습니다. [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_4c7da.vcxproj]
+C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\src.c(1): error C2143: 구문 오류: '{'이(가) '상수' 앞에 없습니다. [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_4c7da.vcxproj]
+C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\src.c(1): error C2059: 구문 오류: '상수' [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_4c7da.vcxproj]
+C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\src.c(1): error C2059: 구문 오류: ')' [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_4c7da.vcxproj]
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_4c7da.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+
+빌드하지 못했습니다.
+
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_4c7da.vcxproj"(기본 대상)(1)->
+(ClCompile 대상) -> 
+  C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\src.c(1): error C2143: 구문 오류: ')'이(가) '상수' 앞에 없습니다. [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_4c7da.vcxproj]
+  C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\src.c(1): error C2143: 구문 오류: '{'이(가) '상수' 앞에 없습니다. [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_4c7da.vcxproj]
+  C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\src.c(1): error C2059: 구문 오류: '상수' [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_4c7da.vcxproj]
+  C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\src.c(1): error C2059: 구문 오류: ')' [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_4c7da.vcxproj]
+
+    경고 0개
+    오류 4개
+
+경과 시간: 00:00:01.30
+
+Source file was:
+_Alignas(16) int foo;
+ int main()
+ {
+     return 0;
+ }
+Performing C SOURCE FILE Test HAVE_C11_ATOMIC failed with the following output:
+Change Dir: C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"MSBuild.exe" "cmTC_fb069.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+.NET Framework용 Microsoft (R) Build Engine 버전 16.4.0+e901037fe
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+빌드 시작: 2020-02-22 오후 6:46:14
+1 노드의 "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_fb069.vcxproj" 프로젝트(기본 대상)입니다.
+PrepareForBuild:
+  "cmTC_fb069.dir\Debug\" 디렉터리를 만들고 있습니다.
+  "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\Debug\" 디렉터리를 만들고 있습니다.
+  "cmTC_fb069.dir\Debug\cmTC_fb069.tlog\" 디렉터리를 만들고 있습니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_fb069.dir\Debug\cmTC_fb069.tlog\unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_C11_ATOMIC /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fb069.dir\Debug\\" /Fd"cmTC_fb069.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\src.c"
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.00.24245(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  
+  src.c
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_C11_ATOMIC /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fb069.dir\Debug\\" /Fd"cmTC_fb069.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\src.c"
+  
+C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\src.c(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'stdatomic.h': No such file or directory [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_fb069.vcxproj]
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_fb069.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+
+빌드하지 못했습니다.
+
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_fb069.vcxproj"(기본 대상)(1)->
+(ClCompile 대상) -> 
+  C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\src.c(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'stdatomic.h': No such file or directory [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_fb069.vcxproj]
+
+    경고 0개
+    오류 1개
+
+경과 시간: 00:00:01.26
+
+Source file was:
+#include <stdatomic.h>
+ const int _Atomic foo = ATOMIC_VAR_INIT(~0);
+ int main()
+ {
+     return atomic_load(&foo);
+ }
+Performing C SOURCE FILE Test HAVE_GCC_FORMAT failed with the following output:
+Change Dir: C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"MSBuild.exe" "cmTC_9b202.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+.NET Framework용 Microsoft (R) Build Engine 버전 16.4.0+e901037fe
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+빌드 시작: 2020-02-22 오후 6:46:16
+1 노드의 "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_9b202.vcxproj" 프로젝트(기본 대상)입니다.
+PrepareForBuild:
+  "cmTC_9b202.dir\Debug\" 디렉터리를 만들고 있습니다.
+  "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\Debug\" 디렉터리를 만들고 있습니다.
+  "cmTC_9b202.dir\Debug\cmTC_9b202.tlog\" 디렉터리를 만들고 있습니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_9b202.dir\Debug\cmTC_9b202.tlog\unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_GCC_FORMAT /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9b202.dir\Debug\\" /Fd"cmTC_9b202.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\src.c"
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.00.24245(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  
+  src.c
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_GCC_FORMAT /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9b202.dir\Debug\\" /Fd"cmTC_9b202.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\src.c"
+  
+C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\src.c(1): error C2061: 구문 오류: 식별자 '__attribute__' [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_9b202.vcxproj]
+C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\src.c(1): error C2059: 구문 오류: ';' [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_9b202.vcxproj]
+C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\src.c(1): error C2059: 구문 오류: '상수' [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_9b202.vcxproj]
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_9b202.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+
+빌드하지 못했습니다.
+
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_9b202.vcxproj"(기본 대상)(1)->
+(ClCompile 대상) -> 
+  C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\src.c(1): error C2061: 구문 오류: 식별자 '__attribute__' [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_9b202.vcxproj]
+  C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\src.c(1): error C2059: 구문 오류: ';' [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_9b202.vcxproj]
+  C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\src.c(1): error C2059: 구문 오류: '상수' [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_9b202.vcxproj]
+
+    경고 0개
+    오류 3개
+
+경과 시간: 00:00:01.19
+
+Source file was:
+int foo(const char *str, ...) __attribute__((format(printf, 1, 2)));
+                         int main() {return 0;}
+Determining if the include file stdalign.h exists failed with the following output:
+Change Dir: C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"MSBuild.exe" "cmTC_543c7.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+.NET Framework용 Microsoft (R) Build Engine 버전 16.4.0+e901037fe
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+빌드 시작: 2020-02-22 오후 6:46:19
+1 노드의 "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_543c7.vcxproj" 프로젝트(기본 대상)입니다.
+PrepareForBuild:
+  "cmTC_543c7.dir\Debug\" 디렉터리를 만들고 있습니다.
+  "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\Debug\" 디렉터리를 만들고 있습니다.
+  "cmTC_543c7.dir\Debug\cmTC_543c7.tlog\" 디렉터리를 만들고 있습니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_543c7.dir\Debug\cmTC_543c7.tlog\unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_543c7.dir\Debug\\" /Fd"cmTC_543c7.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.00.24245(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_543c7.dir\Debug\\" /Fd"cmTC_543c7.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'stdalign.h': No such file or directory [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_543c7.vcxproj]
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_543c7.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+
+빌드하지 못했습니다.
+
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_543c7.vcxproj"(기본 대상)(1)->
+(ClCompile 대상) -> 
+  C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'stdalign.h': No such file or directory [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_543c7.vcxproj]
+
+    경고 0개
+    오류 1개
+
+경과 시간: 00:00:01.13
+
+
+Determining if the include file dirent.h exists failed with the following output:
+Change Dir: C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"MSBuild.exe" "cmTC_53601.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+.NET Framework용 Microsoft (R) Build Engine 버전 16.4.0+e901037fe
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+빌드 시작: 2020-02-22 오후 6:46:23
+1 노드의 "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_53601.vcxproj" 프로젝트(기본 대상)입니다.
+PrepareForBuild:
+  "cmTC_53601.dir\Debug\" 디렉터리를 만들고 있습니다.
+  "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\Debug\" 디렉터리를 만들고 있습니다.
+  "cmTC_53601.dir\Debug\cmTC_53601.tlog\" 디렉터리를 만들고 있습니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_53601.dir\Debug\cmTC_53601.tlog\unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_53601.dir\Debug\\" /Fd"cmTC_53601.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.00.24245(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_53601.dir\Debug\\" /Fd"cmTC_53601.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'dirent.h': No such file or directory [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_53601.vcxproj]
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_53601.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+
+빌드하지 못했습니다.
+
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_53601.vcxproj"(기본 대상)(1)->
+(ClCompile 대상) -> 
+  C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'dirent.h': No such file or directory [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_53601.vcxproj]
+
+    경고 0개
+    오류 1개
+
+경과 시간: 00:00:01.22
+
+
+Determining if the include file strings.h exists failed with the following output:
+Change Dir: C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"MSBuild.exe" "cmTC_ba8ef.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+.NET Framework용 Microsoft (R) Build Engine 버전 16.4.0+e901037fe
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+빌드 시작: 2020-02-22 오후 6:46:25
+1 노드의 "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_ba8ef.vcxproj" 프로젝트(기본 대상)입니다.
+PrepareForBuild:
+  "cmTC_ba8ef.dir\Debug\" 디렉터리를 만들고 있습니다.
+  "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\Debug\" 디렉터리를 만들고 있습니다.
+  "cmTC_ba8ef.dir\Debug\cmTC_ba8ef.tlog\" 디렉터리를 만들고 있습니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_ba8ef.dir\Debug\cmTC_ba8ef.tlog\unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ba8ef.dir\Debug\\" /Fd"cmTC_ba8ef.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.00.24245(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ba8ef.dir\Debug\\" /Fd"cmTC_ba8ef.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'strings.h': No such file or directory [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_ba8ef.vcxproj]
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_ba8ef.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+
+빌드하지 못했습니다.
+
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_ba8ef.vcxproj"(기본 대상)(1)->
+(ClCompile 대상) -> 
+  C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'strings.h': No such file or directory [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_ba8ef.vcxproj]
+
+    경고 0개
+    오류 1개
+
+경과 시간: 00:00:01.29
+
+
+Determining if the include file cpuid.h exists failed with the following output:
+Change Dir: C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"MSBuild.exe" "cmTC_d6357.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+.NET Framework용 Microsoft (R) Build Engine 버전 16.4.0+e901037fe
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+빌드 시작: 2020-02-22 오후 6:46:27
+1 노드의 "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_d6357.vcxproj" 프로젝트(기본 대상)입니다.
+PrepareForBuild:
+  "cmTC_d6357.dir\Debug\" 디렉터리를 만들고 있습니다.
+  "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\Debug\" 디렉터리를 만들고 있습니다.
+  "cmTC_d6357.dir\Debug\cmTC_d6357.tlog\" 디렉터리를 만들고 있습니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_d6357.dir\Debug\cmTC_d6357.tlog\unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d6357.dir\Debug\\" /Fd"cmTC_d6357.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.00.24245(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d6357.dir\Debug\\" /Fd"cmTC_d6357.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'cpuid.h': No such file or directory [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_d6357.vcxproj]
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_d6357.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+
+빌드하지 못했습니다.
+
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_d6357.vcxproj"(기본 대상)(1)->
+(ClCompile 대상) -> 
+  C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'cpuid.h': No such file or directory [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_d6357.vcxproj]
+
+    경고 0개
+    오류 1개
+
+경과 시간: 00:00:01.18
+
+
+Determining if the include file sys/sysconf.h exists failed with the following output:
+Change Dir: C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"MSBuild.exe" "cmTC_c6d9f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+.NET Framework용 Microsoft (R) Build Engine 버전 16.4.0+e901037fe
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+빌드 시작: 2020-02-22 오후 6:46:31
+1 노드의 "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_c6d9f.vcxproj" 프로젝트(기본 대상)입니다.
+PrepareForBuild:
+  "cmTC_c6d9f.dir\Debug\" 디렉터리를 만들고 있습니다.
+  "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\Debug\" 디렉터리를 만들고 있습니다.
+  "cmTC_c6d9f.dir\Debug\cmTC_c6d9f.tlog\" 디렉터리를 만들고 있습니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_c6d9f.dir\Debug\cmTC_c6d9f.tlog\unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c6d9f.dir\Debug\\" /Fd"cmTC_c6d9f.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.00.24245(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c6d9f.dir\Debug\\" /Fd"cmTC_c6d9f.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'sys/sysconf.h': No such file or directory [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_c6d9f.vcxproj]
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_c6d9f.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+
+빌드하지 못했습니다.
+
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_c6d9f.vcxproj"(기본 대상)(1)->
+(ClCompile 대상) -> 
+  C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'sys/sysconf.h': No such file or directory [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_c6d9f.vcxproj]
+
+    경고 0개
+    오류 1개
+
+경과 시간: 00:00:01.22
+
+
+Determining if the include file ieeefp.h exists failed with the following output:
+Change Dir: C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"MSBuild.exe" "cmTC_1942f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+.NET Framework용 Microsoft (R) Build Engine 버전 16.4.0+e901037fe
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+빌드 시작: 2020-02-22 오후 6:46:37
+1 노드의 "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_1942f.vcxproj" 프로젝트(기본 대상)입니다.
+PrepareForBuild:
+  "cmTC_1942f.dir\Debug\" 디렉터리를 만들고 있습니다.
+  "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\Debug\" 디렉터리를 만들고 있습니다.
+  "cmTC_1942f.dir\Debug\cmTC_1942f.tlog\" 디렉터리를 만들고 있습니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_1942f.dir\Debug\cmTC_1942f.tlog\unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1942f.dir\Debug\\" /Fd"cmTC_1942f.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.00.24245(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1942f.dir\Debug\\" /Fd"cmTC_1942f.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'ieeefp.h': No such file or directory [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_1942f.vcxproj]
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_1942f.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+
+빌드하지 못했습니다.
+
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_1942f.vcxproj"(기본 대상)(1)->
+(ClCompile 대상) -> 
+  C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'ieeefp.h': No such file or directory [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_1942f.vcxproj]
+
+    경고 0개
+    오류 1개
+
+경과 시간: 00:00:01.19
+
+
+Determining if the function pow exists in the m failed with the following output:
+Change Dir: C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"MSBuild.exe" "cmTC_08a32.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+.NET Framework용 Microsoft (R) Build Engine 버전 16.4.0+e901037fe
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+빌드 시작: 2020-02-22 오후 6:46:40
+1 노드의 "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_08a32.vcxproj" 프로젝트(기본 대상)입니다.
+PrepareForBuild:
+  "cmTC_08a32.dir\Debug\" 디렉터리를 만들고 있습니다.
+  "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\Debug\" 디렉터리를 만들고 있습니다.
+  "cmTC_08a32.dir\Debug\cmTC_08a32.tlog\" 디렉터리를 만들고 있습니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_08a32.dir\Debug\cmTC_08a32.tlog\unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pow /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_08a32.dir\Debug\\" /Fd"cmTC_08a32.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.00.24245(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pow /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_08a32.dir\Debug\\" /Fd"cmTC_08a32.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CheckFunctionExists.c"
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\Debug\cmTC_08a32.exe" /INCREMENTAL /NOLOGO m.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x64/CMakeFiles/CMakeTmp/Debug/cmTC_08a32.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x64/CMakeFiles/CMakeTmp/Debug/cmTC_08a32.lib" /MACHINE:X64  /machine:x64 cmTC_08a32.dir\Debug\CheckFunctionExists.obj
+LINK : fatal error LNK1104: 'm.lib' 파일을 열 수 없습니다. [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_08a32.vcxproj]
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_08a32.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+
+빌드하지 못했습니다.
+
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_08a32.vcxproj"(기본 대상)(1)->
+(Link 대상) -> 
+  LINK : fatal error LNK1104: 'm.lib' 파일을 열 수 없습니다. [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_08a32.vcxproj]
+
+    경고 0개
+    오류 1개
+
+경과 시간: 00:00:01.29
+
+
+Determining if the function dlopen exists in the dl failed with the following output:
+Change Dir: C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"MSBuild.exe" "cmTC_1f3a8.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+.NET Framework용 Microsoft (R) Build Engine 버전 16.4.0+e901037fe
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+빌드 시작: 2020-02-22 오후 6:46:42
+1 노드의 "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_1f3a8.vcxproj" 프로젝트(기본 대상)입니다.
+PrepareForBuild:
+  "cmTC_1f3a8.dir\Debug\" 디렉터리를 만들고 있습니다.
+  "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\Debug\" 디렉터리를 만들고 있습니다.
+  "cmTC_1f3a8.dir\Debug\cmTC_1f3a8.tlog\" 디렉터리를 만들고 있습니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_1f3a8.dir\Debug\cmTC_1f3a8.tlog\unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=dlopen /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1f3a8.dir\Debug\\" /Fd"cmTC_1f3a8.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.00.24245(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=dlopen /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1f3a8.dir\Debug\\" /Fd"cmTC_1f3a8.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CheckFunctionExists.c"
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\Debug\cmTC_1f3a8.exe" /INCREMENTAL /NOLOGO dl.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x64/CMakeFiles/CMakeTmp/Debug/cmTC_1f3a8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x64/CMakeFiles/CMakeTmp/Debug/cmTC_1f3a8.lib" /MACHINE:X64  /machine:x64 cmTC_1f3a8.dir\Debug\CheckFunctionExists.obj
+LINK : fatal error LNK1104: 'dl.lib' 파일을 열 수 없습니다. [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_1f3a8.vcxproj]
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_1f3a8.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+
+빌드하지 못했습니다.
+
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_1f3a8.vcxproj"(기본 대상)(1)->
+(Link 대상) -> 
+  LINK : fatal error LNK1104: 'dl.lib' 파일을 열 수 없습니다. [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_1f3a8.vcxproj]
+
+    경고 0개
+    오류 1개
+
+경과 시간: 00:00:01.42
+
+
+Determining if the include file dlfcn.h exists failed with the following output:
+Change Dir: C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"MSBuild.exe" "cmTC_b6555.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+.NET Framework용 Microsoft (R) Build Engine 버전 16.4.0+e901037fe
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+빌드 시작: 2020-02-22 오후 6:46:44
+1 노드의 "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_b6555.vcxproj" 프로젝트(기본 대상)입니다.
+PrepareForBuild:
+  "cmTC_b6555.dir\Debug\" 디렉터리를 만들고 있습니다.
+  "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\Debug\" 디렉터리를 만들고 있습니다.
+  "cmTC_b6555.dir\Debug\cmTC_b6555.tlog\" 디렉터리를 만들고 있습니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_b6555.dir\Debug\cmTC_b6555.tlog\unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b6555.dir\Debug\\" /Fd"cmTC_b6555.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.00.24245(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b6555.dir\Debug\\" /Fd"cmTC_b6555.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'dlfcn.h': No such file or directory [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_b6555.vcxproj]
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_b6555.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+
+빌드하지 못했습니다.
+
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_b6555.vcxproj"(기본 대상)(1)->
+(ClCompile 대상) -> 
+  C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'dlfcn.h': No such file or directory [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_b6555.vcxproj]
+
+    경고 0개
+    오류 1개
+
+경과 시간: 00:00:01.28
+
+
+Determining if the aligned_alloc exist failed with the following output:
+Change Dir: C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"MSBuild.exe" "cmTC_f373d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+.NET Framework용 Microsoft (R) Build Engine 버전 16.4.0+e901037fe
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+빌드 시작: 2020-02-22 오후 6:46:48
+1 노드의 "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_f373d.vcxproj" 프로젝트(기본 대상)입니다.
+PrepareForBuild:
+  "cmTC_f373d.dir\Debug\" 디렉터리를 만들고 있습니다.
+  "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\Debug\" 디렉터리를 만들고 있습니다.
+  "cmTC_f373d.dir\Debug\cmTC_f373d.tlog\" 디렉터리를 만들고 있습니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_f373d.dir\Debug\cmTC_f373d.tlog\unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f373d.dir\Debug\\" /Fd"cmTC_f373d.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.00.24245(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f373d.dir\Debug\\" /Fd"cmTC_f373d.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c(8): error C2065: 'aligned_alloc': 선언되지 않은 식별자입니다. [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_f373d.vcxproj]
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_f373d.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+
+빌드하지 못했습니다.
+
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_f373d.vcxproj"(기본 대상)(1)->
+(ClCompile 대상) -> 
+  C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c(8): error C2065: 'aligned_alloc': 선언되지 않은 식별자입니다. [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_f373d.vcxproj]
+
+    경고 0개
+    오류 1개
+
+경과 시간: 00:00:01.18
+
+File C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef aligned_alloc
+  return ((int*)(&aligned_alloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the posix_memalign exist failed with the following output:
+Change Dir: C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"MSBuild.exe" "cmTC_93517.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+.NET Framework용 Microsoft (R) Build Engine 버전 16.4.0+e901037fe
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+빌드 시작: 2020-02-22 오후 6:46:50
+1 노드의 "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_93517.vcxproj" 프로젝트(기본 대상)입니다.
+PrepareForBuild:
+  "cmTC_93517.dir\Debug\" 디렉터리를 만들고 있습니다.
+  "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\Debug\" 디렉터리를 만들고 있습니다.
+  "cmTC_93517.dir\Debug\cmTC_93517.tlog\" 디렉터리를 만들고 있습니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_93517.dir\Debug\cmTC_93517.tlog\unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_93517.dir\Debug\\" /Fd"cmTC_93517.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.00.24245(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_93517.dir\Debug\\" /Fd"cmTC_93517.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c(8): error C2065: 'posix_memalign': 선언되지 않은 식별자입니다. [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_93517.vcxproj]
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_93517.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+
+빌드하지 못했습니다.
+
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_93517.vcxproj"(기본 대상)(1)->
+(ClCompile 대상) -> 
+  C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c(8): error C2065: 'posix_memalign': 선언되지 않은 식별자입니다. [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_93517.vcxproj]
+
+    경고 0개
+    오류 1개
+
+경과 시간: 00:00:01.23
+
+File C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_memalign
+  return ((int*)(&posix_memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the __control87_2 exist failed with the following output:
+Change Dir: C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"MSBuild.exe" "cmTC_fef17.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+.NET Framework용 Microsoft (R) Build Engine 버전 16.4.0+e901037fe
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+빌드 시작: 2020-02-22 오후 6:47:03
+1 노드의 "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_fef17.vcxproj" 프로젝트(기본 대상)입니다.
+PrepareForBuild:
+  "cmTC_fef17.dir\Debug\" 디렉터리를 만들고 있습니다.
+  "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\Debug\" 디렉터리를 만들고 있습니다.
+  "cmTC_fef17.dir\Debug\cmTC_fef17.tlog\" 디렉터리를 만들고 있습니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_fef17.dir\Debug\cmTC_fef17.tlog\unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fef17.dir\Debug\\" /Fd"cmTC_fef17.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.00.24245(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fef17.dir\Debug\\" /Fd"cmTC_fef17.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c(8): error C2065: '__control87_2': 선언되지 않은 식별자입니다. [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_fef17.vcxproj]
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_fef17.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+
+빌드하지 못했습니다.
+
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_fef17.vcxproj"(기본 대상)(1)->
+(ClCompile 대상) -> 
+  C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckSymbolExists.c(8): error C2065: '__control87_2': 선언되지 않은 식별자입니다. [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_fef17.vcxproj]
+
+    경고 0개
+    오류 1개
+
+경과 시간: 00:00:01.16
+
+File C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __control87_2
+  return ((int*)(&__control87_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function strcasecmp exists failed with the following output:
+Change Dir: C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"MSBuild.exe" "cmTC_93616.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+.NET Framework용 Microsoft (R) Build Engine 버전 16.4.0+e901037fe
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+빌드 시작: 2020-02-22 오후 6:47:09
+1 노드의 "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_93616.vcxproj" 프로젝트(기본 대상)입니다.
+PrepareForBuild:
+  "cmTC_93616.dir\Debug\" 디렉터리를 만들고 있습니다.
+  "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\Debug\" 디렉터리를 만들고 있습니다.
+  "cmTC_93616.dir\Debug\cmTC_93616.tlog\" 디렉터리를 만들고 있습니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_93616.dir\Debug\cmTC_93616.tlog\unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strcasecmp /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_93616.dir\Debug\\" /Fd"cmTC_93616.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.00.24245(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strcasecmp /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_93616.dir\Debug\\" /Fd"cmTC_93616.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CheckFunctionExists.c"
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\Debug\cmTC_93616.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x64/CMakeFiles/CMakeTmp/Debug/cmTC_93616.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x64/CMakeFiles/CMakeTmp/Debug/cmTC_93616.lib" /MACHINE:X64  /machine:x64 cmTC_93616.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: strcasecmp 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다. [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_93616.vcxproj]
+C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\Debug\cmTC_93616.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다. [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_93616.vcxproj]
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_93616.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+
+빌드하지 못했습니다.
+
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_93616.vcxproj"(기본 대상)(1)->
+(Link 대상) -> 
+  CheckFunctionExists.obj : error LNK2019: strcasecmp 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다. [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_93616.vcxproj]
+  C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\Debug\cmTC_93616.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다. [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_93616.vcxproj]
+
+    경고 0개
+    오류 2개
+
+경과 시간: 00:00:01.51
+
+
+Determining if the function strncasecmp exists failed with the following output:
+Change Dir: C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"MSBuild.exe" "cmTC_a455b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+.NET Framework용 Microsoft (R) Build Engine 버전 16.4.0+e901037fe
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+빌드 시작: 2020-02-22 오후 6:47:13
+1 노드의 "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_a455b.vcxproj" 프로젝트(기본 대상)입니다.
+PrepareForBuild:
+  "cmTC_a455b.dir\Debug\" 디렉터리를 만들고 있습니다.
+  "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\Debug\" 디렉터리를 만들고 있습니다.
+  "cmTC_a455b.dir\Debug\cmTC_a455b.tlog\" 디렉터리를 만들고 있습니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_a455b.dir\Debug\cmTC_a455b.tlog\unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strncasecmp /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a455b.dir\Debug\\" /Fd"cmTC_a455b.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.00.24245(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strncasecmp /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a455b.dir\Debug\\" /Fd"cmTC_a455b.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\cmake-3.12.1-win64-x64\share\cmake-3.12\Modules\CheckFunctionExists.c"
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\Debug\cmTC_a455b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x64/CMakeFiles/CMakeTmp/Debug/cmTC_a455b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x64/CMakeFiles/CMakeTmp/Debug/cmTC_a455b.lib" /MACHINE:X64  /machine:x64 cmTC_a455b.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: strncasecmp 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다. [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_a455b.vcxproj]
+C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\Debug\cmTC_a455b.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다. [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_a455b.vcxproj]
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_a455b.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+
+빌드하지 못했습니다.
+
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_a455b.vcxproj"(기본 대상)(1)->
+(Link 대상) -> 
+  CheckFunctionExists.obj : error LNK2019: strncasecmp 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다. [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_a455b.vcxproj]
+  C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\Debug\cmTC_a455b.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다. [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_a455b.vcxproj]
+
+    경고 0개
+    오류 2개
+
+경과 시간: 00:00:01.57
+
+
+Determining if the include file arm_neon.h exists failed with the following output:
+Change Dir: C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"MSBuild.exe" "cmTC_5e7c0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+.NET Framework용 Microsoft (R) Build Engine 버전 16.4.0+e901037fe
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+빌드 시작: 2020-02-22 오후 6:47:37
+1 노드의 "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_5e7c0.vcxproj" 프로젝트(기본 대상)입니다.
+PrepareForBuild:
+  "cmTC_5e7c0.dir\Debug\" 디렉터리를 만들고 있습니다.
+  "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\Debug\" 디렉터리를 만들고 있습니다.
+  "cmTC_5e7c0.dir\Debug\cmTC_5e7c0.tlog\" 디렉터리를 만들고 있습니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_5e7c0.dir\Debug\cmTC_5e7c0.tlog\unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5e7c0.dir\Debug\\" /Fd"cmTC_5e7c0.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.00.24245(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5e7c0.dir\Debug\\" /Fd"cmTC_5e7c0.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\arm_neon.h(17): fatal error C1189: #error:  This header is specific to ARM targets [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_5e7c0.vcxproj]
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_5e7c0.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+
+빌드하지 못했습니다.
+
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_5e7c0.vcxproj"(기본 대상)(1)->
+(ClCompile 대상) -> 
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\arm_neon.h(17): fatal error C1189: #error:  This header is specific to ARM targets [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_5e7c0.vcxproj]
+
+    경고 0개
+    오류 1개
+
+경과 시간: 00:00:01.30
+
+
+Determining if files SLES/OpenSLES.h;SLES/OpenSLES_Android.h exist failed with the following output:
+Change Dir: C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"MSBuild.exe" "cmTC_fe3ae.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+.NET Framework용 Microsoft (R) Build Engine 버전 16.4.0+e901037fe
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+빌드 시작: 2020-02-22 오후 6:47:46
+1 노드의 "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_fe3ae.vcxproj" 프로젝트(기본 대상)입니다.
+PrepareForBuild:
+  "cmTC_fe3ae.dir\Debug\" 디렉터리를 만들고 있습니다.
+  "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\Debug\" 디렉터리를 만들고 있습니다.
+  "cmTC_fe3ae.dir\Debug\cmTC_fe3ae.tlog\" 디렉터리를 만들고 있습니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_fe3ae.dir\Debug\cmTC_fe3ae.tlog\unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fe3ae.dir\Debug\\" /Fd"cmTC_fe3ae.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CheckIncludeFiles\HAVE_SLES_OPENSLES_ANDROID_H.c"
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.00.24245(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fe3ae.dir\Debug\\" /Fd"cmTC_fe3ae.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CheckIncludeFiles\HAVE_SLES_OPENSLES_ANDROID_H.c"
+  
+  HAVE_SLES_OPENSLES_ANDROID_H.c
+C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CheckIncludeFiles\HAVE_SLES_OPENSLES_ANDROID_H.c(2): fatal error C1083: 포함 파일을 열 수 없습니다. 'SLES/OpenSLES.h': No such file or directory [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_fe3ae.vcxproj]
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_fe3ae.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+
+빌드하지 못했습니다.
+
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_fe3ae.vcxproj"(기본 대상)(1)->
+(ClCompile 대상) -> 
+  C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CheckIncludeFiles\HAVE_SLES_OPENSLES_ANDROID_H.c(2): fatal error C1083: 포함 파일을 열 수 없습니다. 'SLES/OpenSLES.h': No such file or directory [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_fe3ae.vcxproj]
+
+    경고 0개
+    오류 1개
+
+경과 시간: 00:00:01.32
+
+Source:
+/* */
+#include <SLES/OpenSLES.h>
+#include <SLES/OpenSLES_Android.h>
+
+
+int main(void){return 0;}
+
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x64/CMakeFiles/CMakeTmp
+
+Run Build Command:"MSBuild.exe" "cmTC_0eac8.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+.NET Framework용 Microsoft (R) Build Engine 버전 16.4.0+e901037fe
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+빌드 시작: 2020-02-22 오후 6:47:48
+1 노드의 "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_0eac8.vcxproj" 프로젝트(기본 대상)입니다.
+PrepareForBuild:
+  "cmTC_0eac8.dir\Debug\" 디렉터리를 만들고 있습니다.
+  "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\Debug\" 디렉터리를 만들고 있습니다.
+  "cmTC_0eac8.dir\Debug\cmTC_0eac8.tlog\" 디렉터리를 만들고 있습니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_0eac8.dir\Debug\cmTC_0eac8.tlog\unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0eac8.dir\Debug\\" /Fd"cmTC_0eac8.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.00.24245(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _LARGEFILE_SOURCE /D _LARGE_FILES /D restrict= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0eac8.dir\Debug\\" /Fd"cmTC_0eac8.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  
+C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'pthread.h': No such file or directory [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_0eac8.vcxproj]
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_0eac8.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+
+빌드하지 못했습니다.
+
+"C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_0eac8.vcxproj"(기본 대상)(1)->
+(ClCompile 대상) -> 
+  C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 포함 파일을 열 수 없습니다. 'pthread.h': No such file or directory [C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x64\CMakeFiles\CMakeTmp\cmTC_0eac8.vcxproj]
+
+    경고 0개
+    오류 1개
+
+경과 시간: 00:00:01.17
+
+

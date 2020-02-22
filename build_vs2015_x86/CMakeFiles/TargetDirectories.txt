@@ -1,0 +1,12 @@
+C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x86/CMakeFiles/common.dir
+C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x86/CMakeFiles/OpenAL32.dir
+C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x86/CMakeFiles/makehrtf.dir
+C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x86/CMakeFiles/openal-info.dir
+C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x86/CMakeFiles/INSTALL.dir
+C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x86/CMakeFiles/bsincgen.dir
+C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x86/CMakeFiles/test-common.dir
+C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x86/CMakeFiles/altonegen.dir
+C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x86/CMakeFiles/ALL_BUILD.dir
+C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x86/CMakeFiles/ZERO_CHECK.dir
+C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x86/utils/alsoft-config/CMakeFiles/INSTALL.dir
+C:/Work/rco/Src/Extern/openal-soft/build_vs2015_x86/utils/alsoft-config/CMakeFiles/ALL_BUILD.dir

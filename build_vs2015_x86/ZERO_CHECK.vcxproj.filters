@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Work\rco\Src\Extern\openal-soft\build_vs2015_x86\CMakeFiles\d778ba0cdbae03a5015eee669bc52007\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{80A40F6E-00A3-3852-AE7D-A01BC9DF3E4F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
